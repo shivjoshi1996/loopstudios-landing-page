@@ -102,3 +102,56 @@ header {
 .our-creations h2 {
     padding-bottom: 48px;
 }
+
+.creations-grid {
+    display: grid;
+    grid-gap: 24px;
+}
+
+.creation-item {
+    height: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-position: center;
+    background-size: contain;
+}
+
+.creation-item h3 {
+    font-family:  'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+
+.item-1 {
+    background-image: url(./images/mobile/image-deep-earth.jpg);
+}
+
+.item-2 {
+    background-image: url(./images/mobile/image-night-arcade.jpg);
+}
+
+.item-3 {
+    background-image: url(./images/mobile/image-soccer-team.jpg);
+}
+
+.item-4 {
+    background-image: url(./images/mobile/image-grid.jpg);
+}
+
+.item-5 {
+    background-image: url(./images/mobile/image-from-above.jpg);
+}
+
+.item-6 {
+    background-image: url(./images/mobile/image-pocket-borealis.jpg);
+}
+
+.item-7 {
+    background-image: url(./images/mobile/image-curiosity.jpg);
+}
+
+.item-8 {
+    background-image: url(./images/mobile/image-fisheye.jpg);
+}
