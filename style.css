@@ -22,7 +22,7 @@ h2 {
 }
 
 header {
-    height: 100vh;
+    height: 95vh;
     background-image: url(./images/mobile/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,6 +82,10 @@ header {
     padding-top: 96px;
     text-align: center;
     padding-bottom: 96px;
+}
+
+.leading-in-vr-desktop-image {
+    display: none;
 }
 
 .leader-in-vr img {
@@ -241,6 +245,7 @@ footer p {
 @media (min-width: 800px) {
     header {
         background-image: url(./images/desktop/image-hero.jpg);
+        height: 95vh;
     }
     .mobile-inactive-nav {
         display: none;
@@ -273,6 +278,113 @@ footer p {
         top: unset;
         left: unset;
         transform: unset;
+        width: 45%;
+        margin-left: 165px;
+        top: 50%;
+        transform: translate(0, -50%);
+
+    }
+    .hero h1 {
+        font-size: 72px;
+        line-height: 70px;
+    }
+
+    /* LEADING IN VR SECTION  */
+
+    .leader-in-vr {
+        display: flex;
+        margin-left: 165px;
+        margin-right: 165px;
+        }
+
+    .leading-in-vr-mobile-image {
+        display: none;
+        width: 60%;
+    }
+    .leading-in-vr-desktop-image {
+        display: unset;
+    }
+    .leader-in-vr img {
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 731px;
+        height: auto;
+        padding-bottom: 48px;
+    }
+    .leading-in-vr-text {
+        background-color: white;
+        margin-left: -200px;
+        margin-top: 200px;
+        margin-bottom: 47px;
+        padding-top: 96px;
+        padding-left: 96px;
+        text-align: left;
+        z-index: 2;
+    }
+
+    .leading-in-vr-text h2 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .leading-in-vr-text p {
+        padding-left: unset;
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    /* OUR CREATIONS  */
+
+    .our-creations h2 {
+        margin-left: 165px;
+        margin-right: 165px;
+        font-size: 48px;
+        text-align: left;
+    }
+
+    .creations-grid {
+        margin-left: 165px;
+        margin-right: 165px;
+        grid-template-columns: 256px 256px 256px 256px;
+        grid-gap: 30px;
+    }
+
+    .creation-item {
+        height: 450px;
+        width: 256px;
+        margin-left: unset;
+        margin-right: unset;
+        
+    }
+
+    .item-1 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.601863) 100%), url(./images/desktop/image-deep-earth.jpg);
+    }
+    
+    .item-2 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.601863) 100%), url(./images/desktop/image-night-arcade.jpg);
+    }
+    .item-3 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.601863) 100%), url(./images/desktop/image-soccer-team.jpg);
+    }
+    
+    .item-4 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.601863) 100%), url(./images/desktop/image-grid.jpg);
+    }
+    
+    .item-5 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.601863) 100%), url(./images/desktop/image-from-above.jpg);
+    }
+    
+    .item-6 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.601863) 100%), url(./images/desktop/image-pocket-borealis.jpg);
+    }
+    
+    .item-7 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.601863) 100%), url(./images/desktop/image-curiosity.jpg);
+    }
+    
+    .item-8 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.601863) 100%),url(./images/desktop/image-fisheye.jpg);
     }
 
   }
