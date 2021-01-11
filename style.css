@@ -34,7 +34,41 @@ header {
 
 .mobile-active-nav {
     display: none;
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
 }
+
+.mobile-active-logo-close {
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+
+.mobile-active-links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-top: 160px;
+    text-transform: uppercase;
+    
+}
+
+.mobile-active-links a{
+   text-decoration: none;
+   font-family:  'Josefin Sans', sans-serif;
+   color: white;
+   font-weight: 300;
+   font-size: 24px;
+    
+}
+
 
 .desktop-nav {
     display: none;
@@ -128,8 +162,8 @@ header {
     height: 120px;
     margin-left: 24px;
     margin-right: 24px;
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: cover;
     position: relative;
 }
 
@@ -274,6 +308,9 @@ footer p {
         text-decoration: none;
         color: white;
     }
+    .desktop-nav a:hover {
+        border-bottom: 2px solid white;
+    }
     .hero {
         top: unset;
         left: unset;
@@ -355,6 +392,19 @@ footer p {
         margin-left: unset;
         margin-right: unset;
         
+    }
+
+    .creation-item h3 {
+        font-size: 32px;
+        width: 150px;
+        position: absolute;
+        top: 80%;
+        left: 40px;
+    
+    }
+
+    .our-creations button {
+        display: none;
     }
 
     .item-1 {
